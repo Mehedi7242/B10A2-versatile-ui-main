@@ -12,4 +12,28 @@
     .menu-icon{
         display: block;
     }
+
+    .home-banner-section{
+        display: block;
+
+    }
+
+    .button-container{
+        width: 100%;
+    }
+    .btn{
+        width: 50%;
+        height:auto
+
+    }
+    .home-title{
+        font-size: 4.875rem;
+        width: 100%;
+    }
+
+    .home-title-para{
+        font-size: 1rem;
+        padding: 25px 0px;
+        width: 100%;
+    }
 }
