@@ -1,12 +1,12 @@
 *{
-    background-color: #111111;
     color: white;
     margin: 0;
     padding: 0;
 
-
 }
-
+body{
+    background-color:#111111;
+}
 
 .orange{
     color: rgba(230,83, 60, 1);
@@ -71,6 +71,7 @@
     margin: 0 auto;
     padding:1.5rem;
 
+
 }
 
 .home-title-section{
@@ -131,6 +132,7 @@
 .change-your-habits-section{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #111111;
 }
 
 .change-habits-title-and-para{
@@ -170,3 +172,49 @@
 
 }
 
+
+/* run extra image start from here */
+.run-img{
+    width: 40rem;
+    height: auto;
+    padding: 40px;
+    border-radius: 80px;
+
+}
+
+.run-an-extra-mile-section{
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+
+}
+
+.run-extramile-container{
+    background-color: #2d2c2c;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.title-box{
+    padding: 40px;
+}
+
+.run-title{
+    font-size: 4.875rem;
+    width: 70%;
+}
+.run-pera{
+    font-size: 1rem;
+    width: 80%;
+    padding: 20px 0px;
+
+}
+.btn-join{
+
+    padding-top: 10px;
+}
+
+/* training and exercises start from here  */
