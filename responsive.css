@@ -51,4 +51,29 @@
     .box-title{
         padding-top: 8%;
     }
+
+    /* run extra habit part start from here  */
+    .run-extramile-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .run-img{
+        width:350px;
+        height: auto;
+        border-radius: 80px;
+    
+    }
+
+    .run-title{
+        font-size:4rem;
+        width: 100%;
+    }
+    .btn-join{
+        width: 100%;
+
+    }
+
+
 }

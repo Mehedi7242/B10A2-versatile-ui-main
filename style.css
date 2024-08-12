@@ -208,13 +208,30 @@ body{
 }
 .run-pera{
     font-size: 1rem;
-    width: 80%;
+    width: 70%;
     padding: 20px 0px;
 
 }
-.btn-join{
 
+.btn-join{
     padding-top: 10px;
 }
 
 /* training and exercises start from here  */
+
+.training-and-exercise-section{
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+.t-title{
+    font-size: 4.875rem;
+    padding: 100px 0 20px;
+}
+.t-para{
+    padding-bottom: 300px;
+}
+
+.training-image-box-container{
+    display: grid;
+    grid-template-colum:(2,3fr);
+}
