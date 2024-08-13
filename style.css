@@ -291,5 +291,61 @@ table, td ,tr ,th{
 }
 
 .calculate-bmi-box{
-    padding-bottom: 300px;
+    padding-bottom: 30px;
 }
+
+
+/* meet section starts from here  */
+
+.meet-our-section{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.grid-container{
+    display: grid;
+    border: 2px solid seashell;
+    grid-template-areas: "a b c ""d e f";
+
+    gap: 25px;
+}
+
+.grid-item{
+    position: relative;
+}
+
+.text-box{
+    position: absolute;
+    bottom:50%;
+    left:2%;
+
+
+}
+
+.grid-container img{
+
+    width: 100%;
+    border: 10px; 
+    border-radius: 20px;
+    
+}
+
+.item1{
+    grid-area: a;
+}
+item2{
+    grid-area: b;
+}
+.item3{
+    grid-area: c;
+}
+.item4{
+    grid-area: d;
+}
+.item5{
+    grid-area: e;
+}
+.item6{
+    grid-area: f;
+}
+

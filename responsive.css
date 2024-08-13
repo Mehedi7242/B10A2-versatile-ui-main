@@ -101,5 +101,18 @@
         max-width: 90%;
 
     }
+
+    .grid-container{
+        grid-template-areas: "a" "b" "c " "d" "e" "f";
+
+    }
+    .item5{
+
+        display: none;
+    }
+    .item6{
+        display: none;
+    }
+    
     
 }
