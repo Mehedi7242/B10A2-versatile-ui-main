@@ -89,6 +89,17 @@
         padding: 30px;
         border-radius:30px;
     }
-    
 
+    /* bmi part */
+
+    .bmi-para{
+
+        width: 90%;
+    }
+    
+    .bmi-container{
+        max-width: 90%;
+
+    }
+    
 }
