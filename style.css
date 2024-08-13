@@ -19,7 +19,8 @@ body{
 
 .home-section{
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto;
     background-color:#111111;
     
@@ -29,7 +30,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto;
     padding:1.5rem;
 
@@ -67,7 +69,8 @@ body{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto;
     padding:1.5rem;
 
@@ -130,7 +133,8 @@ body{
 /* change habbit section start from here  */
 
 .change-your-habits-section{
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto;
     background-color: #111111;
 }
@@ -183,7 +187,8 @@ body{
 }
 
 .run-an-extra-mile-section{
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto;
 
 
@@ -220,7 +225,8 @@ body{
 /* training and exercises start from here  */
 
 .training-and-exercise-section{
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 992px;
     margin: 0 auto; 
 }
 .t-title{
