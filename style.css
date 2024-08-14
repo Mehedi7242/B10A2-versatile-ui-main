@@ -78,6 +78,10 @@ body{
 
 /* navbar ends here */
 
+header{
+    background-image: linear-gradient(to bottom, #020202 , #1e1e21 , #666666 , #999999 , #666666, #1e1e21 , #020202 );
+
+}
 
 .home-banner-section{
     display: flex;
@@ -87,6 +91,8 @@ body{
     max-width: 992px;
     margin: 0 auto;
     padding:1.5rem;    
+    /* background-image: linear-gradient(to bottom, #020202 , #1e1e21 , #666666 , #999999 , #666666, #1e1e21 , #020202 ); */
+
 
 
 }
