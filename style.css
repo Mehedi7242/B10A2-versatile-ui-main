@@ -284,9 +284,10 @@ body{
 
 /* bmi-calculator-section start from here  */
 
-.bmi-calculator-section{
-    max-width: 992px;
-    margin: 0 auto;
+
+
+.bmi-calculate-container{
+
 
 }
 .bmi-title{
@@ -325,17 +326,19 @@ body{
 }
 
 .bmi-calculate-section{
-    max-width: 992px;
     margin: 0 auto;
     background: rgba(34, 34, 34, 1);
     padding:20px;
-    border-radius: 20px;
+
 
 }
 
 .bmi-calculate-container{
+    max-width: 992px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding:20px;
 }
 .table{
     padding-top: 30px;
@@ -523,6 +526,8 @@ form input{
 .a-s-para{
     font-size:1rem;
 }
+
+hr{border-color: #2d2c2c;}
 
 
 /* infinite scroll */
