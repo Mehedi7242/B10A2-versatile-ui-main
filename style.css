@@ -173,46 +173,50 @@ body{
     max-width: 992px;
     margin: 0 auto;
     background-color: #111111;
-    padding-bottom: 400px;
+    padding-bottom: 40px;
 
     /* ---------------------------------------- */
 }
-
-.change-habits-title-and-para{
-    text-align: center;
-    padding:50px;
-
-}
-
 .title-c-h{
-    padding: 20px;
-    font-size: 2.7rem;
-}
-
-.c-h-para{
-    font-size: 1rem;
-    padding: 5px;
-
-}
-
-.image-box-container{
-    display:flex;
-    justify-content: space-between;
+    font-size: 4rem;
     text-align: center;
-    padding-bottom: 35px;
+
+}
+.c-h-para{
+    text-align: center;
     
 }
 
 
-.img-round{
+.image-box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.c-h-box-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.c-h-box-para{
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+
+.round{
     border-radius: 50%;
-
 }
 
-.box-paragraph{
-    padding:4% 10%;
-
-}
 
 
 /* run extra image start from here */

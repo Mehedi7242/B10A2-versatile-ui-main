@@ -46,6 +46,18 @@
     }
     .box-title{
         padding-top: 8%;
+
+    }
+    .round{
+        padding-left: 12px;
+    }
+    .c-h-para{
+        padding-bottom: 25px;
+
+    }
+    .c-h-box-para{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     /* run extra habit part start from here  */
