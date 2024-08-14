@@ -1,8 +1,18 @@
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
     color: white;
     margin: 0;
     padding: 0;
-
+    font-family:"Inter";
 }
 
 .p-colour{
@@ -26,7 +36,7 @@ body{
     /* max-width: 1440px; */
     max-width: 992px;
     margin: 0 auto;
-    background-color:#111111;
+ 
     
 }
 
@@ -76,7 +86,7 @@ body{
     /* max-width: 1440px; */
     max-width: 992px;
     margin: 0 auto;
-    padding:1.5rem;
+    padding:1.5rem;    
 
 
 }
@@ -125,13 +135,35 @@ body{
     height: auto;
 
 }
+.home-img-section{
+    position: relative;
+}
 
-.overflow-icon-homepage{
+.overflow-icon-homepage1{
     position:absolute;
-    right: 4%;
-    top: 30%;
+    right: 1%;
+    top: 20%;
+    background-color: #2d2c2c;
+    padding:15px;
+    margin: 2px;
+    border-radius: 10px;
+}
 
+.overflow-icon-homepage2{
+    position:absolute;
+    left:2%;
+    top: 70%;
+    background-color: #2d2c2c;
+    padding:15px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.number-L{
+    font-size:1.5rem;
 
+}
+.small-text{
+    font-size:.7rem;
 }
 
 /* change habbit section start from here  */
@@ -241,22 +273,28 @@ body{
 /* training and exercises start from here  */
 
 
+
+
+
 /* bmi-calculator-section start from here  */
 
 .bmi-calculator-section{
     max-width: 992px;
     margin: 0 auto;
+
 }
 .bmi-title{
-
+    padding: 0 20px;
     font-size: 4rem;
     width: 100%;
+    padding: 0 20px;
 }
 
 .bmi-para{
     font-size: 1rem;
-    width: 70%;
+    width: 100%;
     padding: 20px 0px;
+    padding: 0 30px;
 
     
 }
@@ -264,17 +302,39 @@ body{
 
 .bmi-container{
     padding: 5% 0px;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
 /* another bmi  */
 
+.bmi-title-small{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.bmi-para-small{
+    padding-bottom: 10px;
+}
+
 .bmi-calculate-section{
     max-width: 992px;
     margin: 0 auto;
+    background: rgba(34, 34, 34, 1);
+    padding:20px;
+    border-radius: 20px;
+
 }
 
+.bmi-calculate-container{
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    padding-top: 30px;
+}
+table{
+    margin-top: 20px;
+}
 table, td ,tr ,th{
     border: 1px solid rgb(122, 122, 122);
     border-collapse: collapse;
@@ -283,17 +343,51 @@ table, td ,tr ,th{
 
 }
 
+
 .chart-box{
     width: 40%;
 }
 .calculate-bmi-box{
-    width: 60%;
+    width: 100%;
+    height:300px ;
 }
 
 .calculate-bmi-box{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
+form input{
+    width: 40%;
+    background-color: #2d2c2c;
+    color:rgba(255, 255, 255, 0.6);
+    height:15%;
+    margin: 4px;
+    border-radius: 10px;
+
+}
+
+#factor{
+    width: 82%;
+    background-color: #2d2c2c;
+    height:15%;
+    margin: 4px;
+    border-radius: 10px;
+    color:rgba(255, 255, 255, 0.6);
+
+}
+#sex{
+    width: 40%;
+    background-color: #2d2c2c;
+    height:15%;
+    margin: 4px;
+    border-radius: 10px;
+    color:rgba(255, 255, 255, 0.6);
+    
+}
+
+.bmi-btn{
+    margin-top: 15px;
+}
 
 /* meet section starts from here  */
 
@@ -310,9 +404,6 @@ table, td ,tr ,th{
     padding: 20px;
     background-color: #2d2c2c;
     border-radius: 20px;
-
-
-    
 
 }
 
@@ -367,3 +458,60 @@ table, td ,tr ,th{
  
 }
 
+.about-us-section{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+
+.about-container{
+    padding: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-left{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
+    padding: 0px 20px;
+
+
+}
+.about-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.about-section-title{
+    font-size: 4rem;
+    color: rgba(230,83, 60, 1);
+    font-weight: 800;
+
+}
+
+.about-us-section p{
+    font-size: 1.25rem;
+    padding: 5px 0px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.get-started h6{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+.copy-write{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.125rem;
+}
+.a-s-para{
+    font-size:1rem;
+}

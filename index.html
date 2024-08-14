@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <section class="home-section">
             <nav class="navbar">
-                <h3 class="nav-title orange">Fitness</h3>
+                <h3 style="font-style: italic;" class="nav-title orange">Fitness</h3>
+                
                 <div class="nav-links">
                     <li class="nav-link orange-bg">Home</li>
                     <li class="nav-link">Service</li>
@@ -25,7 +29,13 @@
 
             <div class="home-banner-section">
                 <div class="home-title-section">
-                    <h3 class=" home-title">Get body im Shape & stay healthy</h3>
+                    <h3 class=" home-title">Get body in <span>Shape</span> & stay healthy</h3>
+                    <style>
+                        span{font-family:cursive;
+                            font-style: italic;
+                            font-weight: 100;
+                        }
+                    </style>
                     <p class="home-title-para p-colour">A huge selection of health and fitness content, stay healthy recepies and transformation stories to help you and get fit and stay fit1</p>
                     <div class="button-container">
                         <button class="btn">join club now! </button>
@@ -36,9 +46,13 @@
                 
                 <div class="home-img-section">
                     <img src="images/Images 2.png" alt="">
-                    <div class="overflow-icon-homepage">
-                        <p>300+</p>
-                        <p>video tutorial</p>
+                    <div class="overflow-icon-homepage1">
+                        <p class="number-L">300+</p>
+                        <p class="small-text">video tutorial</p>
+                    </div>
+                    <div class="overflow-icon-homepage2">
+                        <p class="number-L">500+</p>
+                        <p class="small-text">video tutorial</p>
                     </div>
                 </div>
             </div>
@@ -99,7 +113,7 @@
             <div class="bmi-container">
                 <h3 class="bmi-title">BMI calculator</h3>
                 <p class="bmi-para p-colour">
-                    we belive fitness should be accessable to everyone, everywhere, regardless of income or access to a gym. with hundreds of profesional workouts.
+                    we belive fitness should be accessable to everyone, everywhere, regardless of income or access to a gym.
                 </p>
             </div>
         </section>
@@ -107,36 +121,39 @@
         <section class="bmi-calculate-section">
             <div class="bmi-calculate-container">
                 <div class="chart-box">
-                    <h4>BMI calculator chart</h4>
-                    <table>
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight Status</th>
-                        </tr>
-                        <tr>
-                            <td>Below 18.5</td>
-                            <td>UnderWeight</td>
-                        </tr>
-                        <tr>
-                            <td>Below 18.5-24.9</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>Below 25-29.9</td>
-                            <td>OverWeight</td>
-                        </tr>
-                        <tr>
-                            <td>Below 30-and above</td>
-                            <td>Obese</td>
-                        </tr>
-
-
-                    </table>
+                    <h4 class="bmi-title-small">BMI calculator chart</h4>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>UnderWeight</td>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5-24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>Below 25-29.9</td>
+                                <td>OverWeight</td>
+                            </tr>
+                            <tr>
+                                <td>Below 30-and above</td>
+                                <td>Obese</td>
+                            </tr>
+    
+    
+                        </table>
+                    </div>
+                    
                 </div>
                 <div class="calculate-bmi-box">
                     <div class="text-container">
-                        <h3 class="bmi-title">Calculate your BMI</h3>
-                        <p class="bmi-para p-colour">
+                        <h3 class="bmi-title-small">Calculate your BMI</h3>
+                        <p class="bmi-para-small p-colour">
                             we belive fitness should be accessable to everyone, everywhere, regardless of income or access to a gym.
                     </div>
                     <form action="">
@@ -149,13 +166,13 @@
                             <option value="fiat">None</option>
                         </select>
                         <br>
-                        <select id="sex" name="Gender">
+                        <select id="factor" name="factor">
                             <option value="One">One</option>
                             <option value="Two">Two</option>
                             <option value="Three">Three</option>
                         </select>
                     </form>
-                    <button class="btn" >Calculate</button>
+                    <button class="btn bmi-btn" >Calculate</button>
 
                     </p>
                 </div>
@@ -165,10 +182,10 @@
         <section class="meet-our-section">
             <div class="meet-section-container">
                 <div class="meet-section-title-container">
-                    <h3 class="bmi-title">Calculate your BMI</h3>
-                    <p class="bmi-para p-colour">
-                        we belive fitness should be accessable to everyone, everywhere, regardless of income or access to a gym.
-                </div>
+                    <h3 class="bmi-title">Meet Our Team</h3>
+                    <p class="bmi-para p-colour text-center">
+                        We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+                    </div>
 
                 <div class="grid-container">
                     <div class="grid-item item1">
@@ -224,10 +241,34 @@
 
             </div>
         </section>
-
+        <section class="about-us-section">
+            <div class="about-container">
+                <div class="about-left">
+                    <h4 class="about-section-title">Fitness</h4>
+                    <p style="font-size: 1rem;">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                </div>
+                <div class="about-right">
+                    <div class="get-started">
+                        <h6>Get Started</h6>
+                        <p>Service</p>
+                        <p>Affiliate Program</p>
+                        <p>About Us</p>
+                    </div>
+                    <div class="get-started">
+                        <h6>Get Started</h6>
+                        <p>Fitness</p>
+                        <p>Workout Libary </p>
+                        <p>App Design </p>
+                    </div>
         
+                </div>
+            </div>
+            <hr style="margin: 0 3%;">
+            <div class="copy-write">
+                <p>All right reserved @Fitness 2024</p>
+            </div>
 
-
+        </section>
 
 
     </header>
