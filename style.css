@@ -56,6 +56,9 @@ body{
     display: none;
 }
 
+
+
+
 .nav-links{
     display: flex;
     justify-content: space-between;
@@ -75,6 +78,10 @@ body{
     padding: 5px;
     margin:2px;
 }
+.nav-link:hover {
+    background-color: rgba(184, 66, 48, 1);
+}
+
 .nav-title{
     font-size:2.25rem;
 }
@@ -169,10 +176,12 @@ header{
     position:absolute;
     left:2%;
     top: 70%;
-    background-color: #2d2c2c;
+    background-color:transparent;
     padding:15px;
     margin: 2px;
     border-radius: 10px;
+    background-color: #2d2c2c;
+
 }
 .number-L{
     font-size:1.5rem;
@@ -588,7 +597,7 @@ hr{border-color: #2d2c2c;}
     height: 200px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(207, 207, 207, 0.1);
     margin-right: 20px;
 }
 
