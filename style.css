@@ -369,18 +369,26 @@ header{
 }
 .table{
     padding-top: 30px;
+
 }
 table{
     margin-top: 20px;
     
 }
 table, td ,tr ,th{
-    border: 2px solid rgb(122, 122, 122);
+    border: 1px solid rgb(122, 122, 122);
     border-collapse: collapse;
-    width: 100%;
+    padding: 2px 10px;
     height: 40px;
+    width: 90%;
+    
 
 }
+.table{
+    width: 100%;
+}
+
+
 
 th{
     text-align: left;

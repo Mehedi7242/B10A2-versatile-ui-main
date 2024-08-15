@@ -1,6 +1,10 @@
 
+/* 576 */
+/* 425 */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:426px) {
+ 
+
     .nav-links{
         display: none;
         
@@ -148,6 +152,11 @@
     }
 
 
+    .bmi-calculate-section{
+        height: auto;
+        width: auto;
+   
+    }
     .bmi-calculate-container{
         display: flex;
         flex-direction: column;
@@ -158,20 +167,17 @@
         width: 100%;
     }
 
-    .about-right{
-        width: 100%;
-
-        display: flex;
-        
-    }
+  
     .about-right{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
+        display: flex;
     }
 
     .form{
-        width:400px;
+        width:350px;
     }
     .bmi-btn{
         width: 100%;
